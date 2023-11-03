@@ -13,4 +13,10 @@ public class collisionDetector : MonoBehaviour
         CollisionDetected = true;
         GetComponent<Renderer>().material.color = Color.yellow;
     }
+
+    void OnCollisionExit(Collision collision)
+    {
+        CollisionDetected = false;
+        GetComponent<Renderer>().material.color = Color.white;
+    }
 }

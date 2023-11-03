@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ESRDH/Evaluation.unity
     guid: 21e4db84e8f1f084a999ea7bfdd5b95f
   - enabled: 1
-    path: Assets/Scenes/SelfPassiveHaptics.unity
+    path: Assets/Scenes/2_SelfPassiveHaptics.unity
     guid: ba8f19c63540a854ab51168db31a95a4
   m_configObjects: {}
